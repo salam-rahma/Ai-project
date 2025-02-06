@@ -1,0 +1,238 @@
+body {
+    font-family: "DM Serif Text", serif; 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffb6c1, #ff69b4, #ff1493, #db7093);
+    color: white;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(to right, #ff69b4,#fff); 
+    padding: 20px;
+    font-family: "DM Serif Text", serif; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+    color: #ff1493;
+    font-size: 40px;
+    }
+
+/* Navigation bar */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input and button */
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 60%;
+}
+
+button {
+    font-family: "Roboto", serif; 
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #db7093;
+}
+
+/* Task list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* About Us page styling */
+p {
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskBtn {
+    background-color: #3498db;
+}
+
+#addTaskBtn:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+span {
+    font-family: "Poppins", serif;
+    flex-grow: 1; 
+    margin-right: 20px; 
+    text-align: center; 
+}
+
+.edit-btn, .delete-btn {
+    font-family: "DM Serif Text", serif;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #f39c12;
+}
+
+.edit-btn:hover {
+    background-color: #e67e22;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px; 
+}
+
+/* Task list buttons styling */
+button {
+    margin-left: 10px; 
+}
+
+
+.edit-btn {
+    background-color: #f39c12;
+    margin-left: auto; 
+    margin-right: 5px; 
+   
+}
+
+
+.delete-btn {
+    background-color: #e74c3c;
+    margin-left: 10px;
+}
+
+
+/* Container for images and text */
+.button-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px; 
+}
+
+/* Each button image and description */
+.button-item {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+/* Styling for the images */
+.button-image {
+    width: 100px;  /* Adjust image size */
+    margin-bottom: 10px;
+    height: auto;
+    
+}
+
+/* Styling for the text under each image */
+.button-item p {
+    font-size: 1em;
+    color: #ff1493;
+    font-weight: normal;
+}
